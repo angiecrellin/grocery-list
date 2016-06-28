@@ -1,0 +1,64 @@
+body {
+	background-image: url("../images/shopping-carts.jpg");
+}
+
+.container {
+	width: 650px;
+	margin: 0 auto;
+	background-color: lightgrey;
+	text-align: center;
+	margin-top: 10rem;
+	padding-top: 1.5rem;
+	padding-bottom: 1.5rem;
+
+}
+
+#item {
+	height: 2.5rem;
+	width: 20rem;
+	background: whitesmoke;
+	text-align: center;
+	font-size: 1rem;
+
+}	
+
+#additem {
+	height: 2.5rem;
+	width: 2.5rem;
+}
+
+ul {
+	list-style: none;
+	font-size: 1.5rem;
+	text-align: left;
+	margin-left: 3rem;
+	padding-top: 2rem;
+
+}
+
+
+input:checked + label {
+  text-decoration: line-through;
+
+}
+
+.fa-ban {
+	color: red;
+	display: none;
+
+}
+
+li:hover .fa-ban {
+	display: inline-block;
+}
+
+
+p {
+	background-color:black;
+	width: 65rem;
+	color:red;
+	text-align:center;
+	font-size: 1.5rem;
+	margin: 10rem 10rem;
+
+}
