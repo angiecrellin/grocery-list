@@ -1,12 +1,40 @@
 $(document).ready(function() {
 
-	$('.container').mouseenter(function(){
-	alert('mouse entered container');
-	});
+
+
+	//event listener for form submit
+
+	$('.form').on ('submit', function(event) {
+	event.preventDefault();
+
+	//grab the value from the field
+
+	var value = $("#item").val()
+
+	//generate template for new item
+	var newitem = '<li><input type="checkbox" id="Milk"> <label for="Milk">' + value + '</label> <i class="fa fa-ban"></i></li>'
+
+	//add it to the list
+
+	$('.listitems').append(newitem);
 
 });
 
 
+//removing an item
+
+//add event listener for clicking on the delete icon
+	
+
+//remove that item from the list
+	
+
+
+
+//subitems
+
+
+});
 
 
 
