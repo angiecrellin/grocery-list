@@ -19,7 +19,7 @@ $(document).ready(function() {
 
 	$('.listitems').append(newitem);
 
-	
+	 $('#item').val('');
 	
 
 });
@@ -27,14 +27,8 @@ $(document).ready(function() {
 	// remove from form after submit
 	
 
-	$('form').on('submit', function(){
-    $('#item').val('');
-
-
-
-})
-
 	
+
 
 
 
@@ -42,7 +36,7 @@ $(document).ready(function() {
 //removing an item
 
 //add event listener for clicking on the delete icon
-	$('.fa-ban').on('click', function() {
+	$('.listitems').on('click', '.fa-ban', function() {
 
 
 	
@@ -53,7 +47,7 @@ $(document).ready(function() {
 })
 
 
-//subitems
+
 	
 
 
